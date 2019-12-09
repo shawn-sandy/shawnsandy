@@ -1,0 +1,23 @@
+{
+  "name": "@shawnsandy/design",
+  "version": "0.0.1",
+  "private": true,
+  "description": "ShawnSandy.design",
+  "keywords": [
+    "n/a"
+  ],
+  "author": "Shawn Sandy <38263979+shawn-sandy@users.noreply.github.com>",
+  "homepage": "",
+  "license": "MIT",
+  "main": "lib/design.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  }
+}
