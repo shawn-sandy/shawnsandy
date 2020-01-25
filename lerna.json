@@ -1,0 +1,7 @@
+{
+  "packages": [
+    "sites/*",
+    "apps/"
+  ],
+  "version": "independent"
+}
