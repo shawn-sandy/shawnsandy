@@ -1,0 +1,19 @@
+
+/*
+  Do not edit directly
+  Generated on Sun, 26 Jan 2020 14:48:00 GMT
+*/
+
+$mx-color-black: #000000 !default;
+$mx-color-white: #ffffff !default;
+$mx-color-gray: #6a737d !default;
+$mx-color-classic-blue: #d73a49 !default;
+
+$tokens: (
+  'color': (
+    'black': $mx-color-black,
+    'white': $mx-color-white,
+    'gray': $mx-color-gray,
+    'classic-blue': $mx-color-classic-blue
+  )
+);
