@@ -1,5 +1,5 @@
 {
-  "name": "app",
+  "name": "@local/apps",
   "version": "1.0.0",
   "description": "shawnsandy.com",
   "main": "index.js",
@@ -9,6 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
     "@shawnsandy/ideas": "^0.0.19",
     "@shawnsandy/mix": "^0.6.1"
   }
