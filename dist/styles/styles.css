@@ -1,7 +1,7 @@
 /** Import tokens, replace the import file below with your own **/
 /*
   Do not edit directly
-  Generated on Sun, 26 Jan 2020 16:10:15 GMT
+  Generated on Sun, 26 Jan 2020 16:27:24 GMT
 */
 /** Config StyleMix SASS defaults */
 /** import stylemix **/
@@ -71,6 +71,21 @@
 .ss-classic-blue-tp {
   color: rgba(15, 76, 129, 0.91) !important;
 }
+.ss-blue-smoke {
+  color: #ccd9e9 !important;
+}
+.ss-blue-smoke-hover:hover {
+  color: #a8beda !important;
+}
+.ss-blue-smoke\:hover:hover {
+  color: #a8beda !important;
+}
+.ss-blue-smoke\:focus:focus {
+  color: #a8beda !important;
+}
+.ss-blue-smoke-tp {
+  color: #a8beda !important;
+}
 .ss-bg-black {
   background-color: #000000 !important;
 }
@@ -131,6 +146,21 @@
 .ss-bg-classic-blue-tp {
   background-color: rgba(15, 76, 129, 0.91) !important;
 }
+.ss-bg-blue-smoke {
+  background-color: #ccd9e9 !important;
+}
+.ss-bg-blue-smoke-hover:hover {
+  background-color: #a8beda !important;
+}
+.ss-bg-blue-smoke\:hover:hover {
+  background-color: #a8beda !important;
+}
+.ss-bg-blue-smoke\:focus:focus {
+  background-color: #a8beda !important;
+}
+.ss-bg-blue-smoke-tp {
+  background-color: #a8beda !important;
+}
 .ss-border-black {
   border-color: #000000 !important;
 }
@@ -190,4 +220,19 @@
 }
 .ss-border-classic-blue-tp {
   border-color: rgba(15, 76, 129, 0.91) !important;
+}
+.ss-border-blue-smoke {
+  border-color: #ccd9e9 !important;
+}
+.ss-border-blue-smoke-hover:hover {
+  border-color: #a8beda !important;
+}
+.ss-border-blue-smoke\:hover:hover {
+  border-color: #a8beda !important;
+}
+.ss-border-blue-smoke\:focus:focus {
+  border-color: #a8beda !important;
+}
+.ss-border-blue-smoke-tp {
+  border-color: #a8beda !important;
 }
