@@ -11,6 +11,9 @@
         },
         "classic-blue": {
             "value": "#0F4C81"
+        },
+        "blue-smoke": {
+            "value": "#CCD9E9"
         }
     }
 }

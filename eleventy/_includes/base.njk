@@ -26,13 +26,14 @@
     </style>
 </head>
 
-<body>
+<body class="ss-bg-white">
     {#% include "partials/no-ie.html" %#}
     <!-- header -->
     {% block header %} {% endblock %}
     <!-- main content -->
     {% block main %}
-    <main class="container-fluid ss-bg-classic-blue">
+    <main class="container-fluid ss-bg-white">
+
         <div class="row">
             {#% include 'views/main.njk' %#}
             <div class="w-100 d-flex justify-content-center align-items-center ss-cover">
