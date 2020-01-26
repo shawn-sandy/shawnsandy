@@ -3,6 +3,9 @@ module.exports = function(eleventyConfig) {
     notify: true,
     open: true
   });
+  eleventyConfig.addPassthroughCopy({
+    "../projects/**/styles/**/*.css": "styles"
+  });
 
   return {
     dir: {
