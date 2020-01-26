@@ -10,7 +10,7 @@ gulp.task("sass", function() {
   return gulp
     .src("./sass/**/*.scss")
     .pipe(sass({ fiber: Fiber }).on("error", sass.logError))
-    .pipe(gulp.dest("./css"))
+    .pipe(gulp.dest("./styles"))
     .pipe(reports({ gzip: true }));
 });
 
