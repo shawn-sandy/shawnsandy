@@ -20,7 +20,7 @@
     {% endblock %}
     <style>
         .ss-cover {
-            height: 80vh;
+            height: 70vh;
 
         }
 
@@ -30,13 +30,13 @@
     </style>
 </head>
 
-<body class="ss-bg-white">
+<body class="ss-bg-classic-blue">
     {#% include "partials/no-ie.html" %#}
     <!-- header -->
     {% block header %} {% endblock %}
     <!-- main content -->
     {% block main %}
-    <main class="container ss-bg-white">
+    <main class="container-fluid ss-bg-white">
 
         <div class="row">
             {#% include 'views/main.njk' %#}
