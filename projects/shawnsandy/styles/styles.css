@@ -1,7 +1,7 @@
 /** Import tokens, replace the import file below with your own **/
 /*
   Do not edit directly
-  Generated on Sun, 26 Jan 2020 14:48:00 GMT
+  Generated on Sun, 26 Jan 2020 16:10:15 GMT
 */
 /** Config StyleMix SASS defaults */
 /** import stylemix **/
@@ -57,19 +57,19 @@
   color: rgba(106, 115, 125, 0.91) !important;
 }
 .ss-classic-blue {
-  color: #d73a49 !important;
+  color: #0f4c81 !important;
 }
 .ss-classic-blue-hover:hover {
-  color: #b92534 !important;
+  color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-classic-blue\:hover:hover {
-  color: #b92534 !important;
+  color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-classic-blue\:focus:focus {
-  color: #b92534 !important;
+  color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-classic-blue-tp {
-  color: #b92534 !important;
+  color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-bg-black {
   background-color: #000000 !important;
@@ -117,19 +117,19 @@
   background-color: rgba(106, 115, 125, 0.91) !important;
 }
 .ss-bg-classic-blue {
-  background-color: #d73a49 !important;
+  background-color: #0f4c81 !important;
 }
 .ss-bg-classic-blue-hover:hover {
-  background-color: #b92534 !important;
+  background-color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-bg-classic-blue\:hover:hover {
-  background-color: #b92534 !important;
+  background-color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-bg-classic-blue\:focus:focus {
-  background-color: #b92534 !important;
+  background-color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-bg-classic-blue-tp {
-  background-color: #b92534 !important;
+  background-color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-border-black {
   border-color: #000000 !important;
@@ -177,17 +177,17 @@
   border-color: rgba(106, 115, 125, 0.91) !important;
 }
 .ss-border-classic-blue {
-  border-color: #d73a49 !important;
+  border-color: #0f4c81 !important;
 }
 .ss-border-classic-blue-hover:hover {
-  border-color: #b92534 !important;
+  border-color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-border-classic-blue\:hover:hover {
-  border-color: #b92534 !important;
+  border-color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-border-classic-blue\:focus:focus {
-  border-color: #b92534 !important;
+  border-color: rgba(15, 76, 129, 0.91) !important;
 }
 .ss-border-classic-blue-tp {
-  border-color: #b92534 !important;
+  border-color: rgba(15, 76, 129, 0.91) !important;
 }

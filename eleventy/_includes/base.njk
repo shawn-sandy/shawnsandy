@@ -9,6 +9,7 @@
     <script defer src="https://kit.fontawesome.com/33ec04a601.js"></script>
     <link rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@shawnsandy/bootstrap-lite@0.0.20/dist/bootstrap-lite.min.css">
+    <link rel="stylesheet" href="/styles/styles.min.css">
     {% if stylesheets %}
     {% for style in stylesheets %}
     <link rel="stylesheet" href="{{ style }}" />
@@ -20,7 +21,7 @@
     <style>
         .ss-cover {
             height: 100vh;
-            background-color: whitesmoke;
+            /* background-color: whitesmoke; */
         }
     </style>
 </head>
@@ -31,7 +32,7 @@
     {% block header %} {% endblock %}
     <!-- main content -->
     {% block main %}
-    <main class="container-fluid">
+    <main class="container-fluid ss-bg-classic-blue">
         <div class="row">
             {#% include 'views/main.njk' %#}
             <div class="w-100 d-flex justify-content-center align-items-center ss-cover">

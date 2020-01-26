@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({
-    "../projects/**/images/": "images"
+    "../projects/**/images/**.*": "images"
   });
 
   return {
