@@ -1,0 +1,12 @@
+/** Import tokens, replace the import file below with your own **/
+@import "./_tokens/tokens";
+
+/** Config StyleMix SASS defaults */
+
+/** import stylemix **/
+@import "node_modules/@shawnsandy/mix";
+
+// @include mix-components("buttons");
+.ss {
+  @include mix-colors();
+}
