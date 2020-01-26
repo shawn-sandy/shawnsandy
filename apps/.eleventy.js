@@ -2,7 +2,7 @@ module.exports = function(eleventyConfig) {
   return {
     dir: {
       output: "../dist",
-      input: "../_projects",
+      input: "../projects",
       includes: "../eleventy/_includes",
       data: "../eleventy/_data"
     },
