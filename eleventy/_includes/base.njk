@@ -17,6 +17,13 @@
     {% block head %}
 
     {% endblock %}
+    <style>
+        .ss-cover {
+            height: 100vh;
+            background-color: whitesmoke;
+
+        }
+    </style>
 </head>
 
 <body>
@@ -25,10 +32,14 @@
     {% block header %} {% endblock %}
     <!-- main content -->
     {% block main %}
-    <main class="container">
+    <main class="container-fluid">
         <div class="row">
             {#% include 'views/main.njk' %#}
-            {{ content | safe }}
+            <div class="w-100 d-flex justify-content-center align-items-center ss-cover">
+                <h1 class="h1 text-uppercase">
+                    {{ content | safe }}
+            </div>
+
         </div>
     </main>
     {% endblock %}
