@@ -32,11 +32,11 @@
     {% block header %} {% endblock %}
     <!-- main content -->
     {% block main %}
-    <main class="container-fluid ss-bg-white">
+    <main class="container ss-bg-white">
 
         <div class="row">
             {#% include 'views/main.njk' %#}
-            <div class="w-100 d-flex justify-content-center align-items-center ss-cover">
+            <div class="w-75 d-flex justify-content-center align-items-center ss-cover">
                 <h1 class="h1 text-uppercase">
                     {{ content | safe }}
             </div>
