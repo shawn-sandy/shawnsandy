@@ -4,7 +4,8 @@
   "description": "ShawnSandy.com",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "lerna run --scope @local/apps start"
   },
   "keywords": [
     "n/a"
