@@ -10,3 +10,11 @@
 .ss {
   @include mix-colors();
 }
+
+.ss-cover {
+  height: 70vh;
+
+  img {
+    max-width: 70vw;
+  }
+}

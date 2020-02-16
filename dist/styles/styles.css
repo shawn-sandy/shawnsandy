@@ -236,3 +236,10 @@
 .ss-border-blue-smoke-tp {
   border-color: #a8beda !important;
 }
+
+.ss-cover {
+  height: 70vh;
+}
+.ss-cover img {
+  max-width: 75vw;
+}
