@@ -240,6 +240,7 @@
 .ss-cover {
   height: 99vh;
 }
-.ss-cover img {
+.ss-cover img,
+.ss-cover object {
   max-width: 70vw;
 }
