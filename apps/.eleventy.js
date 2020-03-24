@@ -8,6 +8,10 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy({
+    "../projects/**/js/**/*.js": "js"
+  });
+
+  eleventyConfig.addPassthroughCopy({
     "../projects/shawnsandy/images/": "images"
   });
 
