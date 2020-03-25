@@ -5,6 +5,9 @@
 
 /** import stylemix **/
 @import "node_modules/@shawnsandy/mix";
+body {
+  font-family: "Merriweather", serif;
+}
 
 // @include mix-components("buttons");
 .ss {
@@ -12,10 +15,16 @@
 }
 
 .ss-cover {
-  height: 99vh;
+  height: 80vh;
 
   img,
   object {
     max-width: 70vw;
+  }
+  .welcome {
+    font-size: 1.2rem;
+    max-width: 50vw;
+    margin: auto;
+    line-height: 1.8;
   }
 }

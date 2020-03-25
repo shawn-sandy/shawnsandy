@@ -11,6 +11,10 @@
 
 
 **/
+body {
+  font-family: "Merriweather", serif;
+}
+
 .ss-black {
   color: #000000 !important;
 }
@@ -238,9 +242,15 @@
 }
 
 .ss-cover {
-  height: 99vh;
+  height: 80vh;
 }
 .ss-cover img,
 .ss-cover object {
   max-width: 70vw;
+}
+.ss-cover .welcome {
+  font-size: 1.2rem;
+  max-width: 50vw;
+  margin: auto;
+  line-height: 1.8;
 }
