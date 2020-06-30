@@ -26,7 +26,7 @@ body {
 
 main {
   opacity: 0;
-  transition: all 7s ease-out;
+  transition: all 3s ease-out;
 }
 
 .ss-black {
@@ -257,6 +257,9 @@ main {
 
 .ss-cover {
   height: 80vh;
+  opacity: 0;
+  transition-delay: 10s;
+  transition: all 7s ease-in-out;
 }
 .ss-cover img,
 .ss-cover object {

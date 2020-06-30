@@ -11,5 +11,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   // console.log("loaded");
   const cover = document.querySelector("main");
+  const content = document.querySelector(".ss-cover");
   cover.classList.add("loaded");
+  content.classList.add("loaded");
 });
