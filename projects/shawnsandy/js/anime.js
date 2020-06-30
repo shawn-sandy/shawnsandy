@@ -10,6 +10,6 @@
 
 document.addEventListener("DOMContentLoaded", function () {
   // console.log("loaded");
-  const cover = document.querySelector(".ss-cover");
+  const cover = document.querySelector("main");
   cover.classList.add("loaded");
 });
