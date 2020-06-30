@@ -252,6 +252,8 @@ body {
 
 .ss-cover {
   height: 80vh;
+  opacity: 0;
+  transition: all 10s ease-out;
 }
 .ss-cover img,
 .ss-cover object {
@@ -267,4 +269,8 @@ body {
   .ss-cover .welcome {
     max-width: 80vw;
   }
+}
+
+.loaded {
+  opacity: 1;
 }
